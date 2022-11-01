@@ -1,0 +1,13 @@
+<quiz>
+
+  <question type="category">
+    <category>
+      <text>$system$/top/Teste</text>
+    </category>
+    <info format="html">
+      <text />
+    </info>
+    <idnumber />
+  </question>
+  
+</quiz>
