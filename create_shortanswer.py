@@ -1,9 +1,10 @@
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
 import os
-from input_shortanswer import q_name
+from input_shortanswer import q_name, input_setting
 
-def create_category(category_name = 'new_category'):
+def create_category():
+    category_name = str(input('Nome da categoria: '))
     #Acessar configurações de categoria
     file = ET.parse('questions.xml')
     #Acessar raiz da árvore
@@ -13,6 +14,7 @@ def create_category(category_name = 'new_category'):
     #Modificar categoria
     root[0][0][0].text = category_name
     file.write('questions.xml')
+
 
 def new_shortanswer(q_name='new question', q_text = 'question text', q_feedback = '',
                     q_penalty = '', q_answer = 'correct answer'):
@@ -42,4 +44,3 @@ def new_shortanswer(q_name='new question', q_text = 'question text', q_feedback 
     </question>''')
     root.append(projeto)
     file.write("questions.xml")
-  

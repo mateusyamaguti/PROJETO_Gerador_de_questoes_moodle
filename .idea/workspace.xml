@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="069bdbde-c7cd-4f4b-bd91-36a73a90fa01" name="Changes" comment="" />
+    <list default="true" id="069bdbde-c7cd-4f4b-bd91-36a73a90fa01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/questions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/questions.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mateu/Desktop/ZERO AO HELLO WORLD"
+    "last_opened_file_path": "C:/Users/mateu/Desktop/GERADOR_DE_QUESTOES_MOODLE"
   }
 }]]></component>
   <component name="RunManager" selected="Python.create_shortanswer">
